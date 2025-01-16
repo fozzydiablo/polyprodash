@@ -14,7 +14,7 @@ A custom dashboard for monitoring and interacting with Polymarket positions.
 
 ## 🚀 Quick Start
 
-### 1. Python Environment Setup (Backend)
+### 1. Python 3+ Environment Setup (Backend)
 
 Create and activate a virtual environment:
 ```bash
