@@ -12,6 +12,8 @@ A custom dashboard for monitoring and interacting with Polymarket positions.
 - Custom order sizes and controls
 - Real-time WebSocket integration
 
+- only supports sig type 2 currently (link to polymarket docs https://docs.polymarket.com/#signature-types)
+
 ## 🚀 Quick Start
 
 ### 1. Python 3+ Environment Setup (Backend)
@@ -35,8 +37,9 @@ pip install -r requirements.txt
 
 Create a `.env` file in `/src/server` with the following variables:
 ```env
-PK=your_private_key
-FUNDER=your_funder_address
+PK=your_polymarket_signer_private_key
+FUNDER=your_polymarket_proxy_wallet_address
+
 ```
 
 ### 3. Frontend Setup
